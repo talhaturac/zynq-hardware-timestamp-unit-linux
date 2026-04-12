@@ -1,0 +1,21 @@
+# --- Vivado Ignore List ---
+# Ignore build directories and cached files
+vivado-project/**/*.cache/
+vivado-project/**/*.hw/
+vivado-project/**/*.sim/
+vivado-project/**/*.runs/
+vivado-project/**/*.ip_user_files/
+
+# Ignore log and journal files
+vivado-project/*.log
+vivado-project/*.jou
+vivado-project/*.str
+
+# --- General Compilation Ignore ---
+# Ignore object files and kernel module outputs
+*.o
+*.ko
+*.mod.c
+*.order
+*.symvers
+.tmp_versions/

@@ -1,0 +1,11 @@
+/include/ "system-conf.dtsi"
+/ {
+};
+
+/* Override the auto-generated node to use our custom driver and interrupt */
+&axi_tsu_64bit_0 {
+    compatible = "talha,ttt-tsu-driver";
+    interrupt-parent = <&intc>;
+    interrupts = <0 29 4>; /* SPI, IRQ 29, Active-High Level-Sensitive */
+};
+

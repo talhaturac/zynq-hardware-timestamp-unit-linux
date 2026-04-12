@@ -1,0 +1,7 @@
+PETALINUX_VER=2022.2
+VALIDATE_HW_CHKSUM=1
+HARDWARE_PATH=/home/talha/Desktop/github-repos/zynqmp-tsu-linux-project/vivado-project/hw-design/bitstream/zynqmp-hw-timestamp-unit-wrapper.xsa
+HDF_EXT=xsa
+HARDWARE_CHECKSUM=cd11e71db7a192e7b336641f8fe54d3f
+YOCTO_SDK=85e32bd84b2647e640a2e565ef06077a
+RFSCONFIG_CHKSUM=8a154d37612ab8eb8e41291b753f58e9
